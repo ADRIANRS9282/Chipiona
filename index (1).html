@@ -2,79 +2,52 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>IPTV ESPAÑA SIN CORTES</title>
-  <style>
-    body { font-family: sans-serif; margin: 0; background: #111; color: #fff; }
-    header, footer { text-align: center; padding: 2rem; }
-    .hero { padding: 4rem 2rem; background: url('futbol.jpg') center/cover no-repeat; }
-    .hero h1 { font-size: 2.5rem; margin: 0; }
-    .hero p { font-size: 1.2rem; margin: 1rem 0; }
-    .btn { background: green; color: white; padding: 1rem 2rem; text-decoration: none; border-radius: 10px; }
-    .section { padding: 2rem; text-align: center; }
-
-    .imagen-centro {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      padding: 2rem;
-    }
-
-    .imagen-centro img {
-      max-width: 90%;
-      height: auto;
-      border-radius: 10px;
-      box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.4);
-    }
-  </style>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CDFS CHIPIONA</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
 </head>
-<body>
-
-  <header>
-    <h1>IPTV ESPAÑA SIN CORTES</h1>
-    <p>Tu acceso al fútbol en directo, todo el año.</p>
+<body class="bg-gray-100 text-gray-900">
+  <header class="bg-blue-800 text-white py-6 shadow-md">
+    <div class="max-w-6xl mx-auto px-4 flex justify-between items-center">
+      <h1 class="text-2xl font-bold">CDFS CHIPIONA</h1>
+      <nav class="space-x-4">
+        <a href="#plantilla" class="hover:underline">Plantilla</a>
+        <a href="#contacto" class="hover:underline">Contacto</a>
+      </nav>
+    </div>
   </header>
 
-  <div class="hero">
-    <h1>Todo el fútbol por solo 50€/año</h1>
-    <p>+20.000 Canales
-        +50.000 Películas/Series
-        +1000 Canales En Español
-        MOVISTAR, DAZN...
-        La Liga, BEIN, Netflix...
-        Canales de adultos
-        Calidad SD / HD / FHD 
-        Servidor Rápido
-        Asistencia en directo 24/7
-        Perido de prueba 30 dias.</p>
-    <a class="btn" href="https://wa.me/34642425345" target="_blank">Contactar por WhatsApp</a>
-  </div>
+  <main class="max-w-6xl mx-auto px-4 py-8">
+    <section class="mb-12 text-center">
+      <h2 class="text-3xl font-semibold mb-2">Bienvenidos al Club de Fútbol Sala de Chipiona</h2>
+      <p class="text-gray-700">Pasión, compromiso y talento en cada partido.</p>
+    </section>
 
-  <div class="section">
-    <h2>¿Qué incluye?</h2>
-    <ul>
-      <li>Fútbol español e internacional</li>
-      <li>Canales deportivos premium</li>
-      <li>Acceso durante 12 meses</li>
-      <li>Compatible con Todos los Dispositivos Smart TV, Android,Fire TV,Google TV</li>
-    </ul>
-  </div>
+    <section id="plantilla" class="mb-12">
+      <h3 class="text-2xl font-bold mb-6 text-center">Plantilla</h3>
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
+        <!-- Ejemplo de jugador -->
+        <div class="bg-white rounded-xl shadow-md overflow-hidden">
+          <img src="img/jugador1.jpg" alt="Jugador 1" class="w-full h-48 object-cover">
+          <div class="p-4 text-center">
+            <h4 class="font-bold">Nombre Jugador</h4>
+            <p class="text-sm text-gray-600">Posición</p>
+          </div>
+        </div>
 
-  <!-- 🔽 Imagen centrada añadida aquí -->
-  <div class="imagen-centro">
-    <img src="Screenshot_20250123_140245_Chrome.jpg" alt="Demostración de IPTV">
-  </div>
+        <!-- Copia este bloque para más jugadores -->
+        <!-- <div class="...">...</div> -->
+      </div>
+    </section>
 
-  <div class="section">
-    <h2>Precio único: 50€/año</h2>
-    <p>Sin cuotas mensuales. Soporte rápido por WhatsApp.</p>
-  </div>
+    <section id="contacto" class="text-center">
+      <h3 class="text-2xl font-bold mb-4">Contacto</h3>
+      <p class="text-gray-700">Puedes seguirnos en redes sociales o escribirnos a <strong>info@cdfschipiona.com</strong></p>
+    </section>
+  </main>
 
-  <footer>
-    <p>&copy; 2025 IPTV ESPAÑA SIN CORTES - Todos los derechos reservados</p>
+  <footer class="bg-blue-800 text-white py-4 mt-12 text-center">
+    <p>&copy; 2025 CDFS CHIPIONA. Todos los derechos reservados.</p>
   </footer>
-
 </body>
 </html>
-
-
